@@ -243,6 +243,7 @@
  .project-image {
      width: 40%;
      min-height: 300px;
+     /* Dégradé par défaut */
      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
      border-radius: 16px;
      display: flex;
@@ -251,6 +252,17 @@
      color: white;
      font-size: 1.3rem;
      font-weight: 600;
+ }
+
+ /* Personnalisation des projets (Step 6) */
+ .project-card:nth-child(1) .project-image {
+     /* Dégradé Vert/Bleu pour BioShop */
+     background: linear-gradient(135deg, #2ecc71 0%, #3498db 100%);
+ }
+
+ .project-card:nth-child(2) .project-image {
+     /* Dégradé Orange/Rouge pour To-Do List */
+     background: linear-gradient(135deg, #f39c12 0%, #e74c3c 100%);
  }
 
  .project-content {
