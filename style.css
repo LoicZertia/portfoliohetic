@@ -255,7 +255,8 @@
 
  .project-link {
      display: inline-block;
-     color: #0071e3;
+     /* Lien en violet */
+     color: #8e44ad;
      text-decoration: none;
      font-weight: 500;
      transition: color 0.3s;
