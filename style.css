@@ -90,7 +90,8 @@
 
  .cta-button {
      display: inline-block;
-     background-color: #0071e3;
+     /* Bouton CTA en violet */
+     background-color: #8e44ad;
      color: white;
      padding: 14px 32px;
      border-radius: 980px;
@@ -311,7 +312,8 @@
  }
 
  .submit-button {
-     background-color: #0071e3;
+     /* Bouton de formulaire en violet */
+     background-color: #8e44ad;
      color: white;
      padding: 14px;
      border: none;
