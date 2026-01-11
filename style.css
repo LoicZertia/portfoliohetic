@@ -7,7 +7,8 @@
 
  /* ===== STYLES GLOBAUX (Design Apple) ===== */
  body {
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+     /* Typographie : Open Sans pour le texte courant */
+     font-family: 'Open Sans', sans-serif;
      color: #1d1d1f;
      background-color: #ffffff;
      line-height: 1.6;
@@ -38,6 +39,8 @@
  }
 
  .logo {
+     /* Typographie : Montserrat pour les titres */
+     font-family: 'Montserrat', sans-serif;
      font-size: 1.8rem;
      font-weight: 600;
      letter-spacing: -0.5px;
@@ -70,6 +73,8 @@
  }
 
  .hero h1 {
+     /* Typographie : Montserrat pour les titres */
+     font-family: 'Montserrat', sans-serif;
      font-size: 4rem;
      font-weight: 700;
      margin-bottom: 24px;
@@ -239,6 +244,8 @@
  }
 
  .project-content h3 {
+     /* Typographie : Montserrat pour les titres */
+     font-family: 'Montserrat', sans-serif;
      font-size: 1.8rem;
      font-weight: 700;
      color: #1d1d1f;
@@ -420,6 +427,8 @@
  /* Mobile (480px et moins) */
  @media (max-width: 480px) {
      .hero h1 {
+         /* Typographie : Montserrat pour les titres */
+         font-family: 'Montserrat', sans-serif;
          font-size: 1.8rem;
      }
 
@@ -432,6 +441,8 @@
      }
 
      .about-text h2 {
+         /* Typographie : Montserrat pour les titres */
+         font-family: 'Montserrat', sans-serif;
          font-size: 1.8rem;
      }
 
